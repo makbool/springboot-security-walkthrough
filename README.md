@@ -20,6 +20,13 @@ CSRF is enabled ny default
     Username : User
     Password : Random Unique ID
 
+    Adding User Details
+        Username
+        Password
+        Role(s)
+        Authorities
+        and more ...
+
 
 ### Form (Default)
 ### JWT
