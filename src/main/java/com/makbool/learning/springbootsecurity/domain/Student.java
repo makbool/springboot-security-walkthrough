@@ -19,4 +19,12 @@ public class Student implements Serializable {
     public String getStudentName() {
         return studentName;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId=" + studentId +
+                ", studentName='" + studentName + '\'' +
+                '}';
+    }
 }
